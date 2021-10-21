@@ -10,7 +10,7 @@ module.exports = {
     filename: 'main.js',
   },
   resolve: {
-    extensions: ['.js', '.ts', '.tsx', '.json'],
+    extensions: ['.js', '.ts', '.tsx', '.json', 'css'],
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
   },
   module: {
